@@ -57,6 +57,8 @@ namespace SpaDay.Controllers
             }
 
             ViewBag.name = name;
+            ViewBag.skintype = skintype;
+            ViewBag.appropriateFacials = appropriateFacials;
             return View();
         }
 
