@@ -3,32 +3,49 @@
 *@
 @{
 }
-<form method='post'>
+<form method='post' asp-action="menu">
 
-    Name:
-    <br>
-    <input type='text' name='name'>    
-    <br>
+        Name:
+        <br>
+        <input type='text' name='name'>
+        <br>
 
-    Skin type:
-    <br>    
-    <select name='skintype'>
-        <option value='oily'>Oily</option>    
-        <option value='combination'>Combination</option>    
-        <option value='normal'>Normal</option>    
-        <option value='dry'>Dry</option>    
-    </select>
-    <br>
+        Skin type:
+        <br>
+        <select name='skintype'>
+            <option value='oily'>Oily</option>
+            <option value='combination'>Combination</option>
+            <option value='normal'>Normal</option>
+            <option value='dry'>Dry</option>
+        </select>
+        <br>
 
-    Manicure, Pedicure, or Both?
-    <br>    
-    <select name='manipedi'>
-        <option value='manicure'>Manicure</option>    
-        <option value='pedicure'>Pedicure</option>
-        <option value='both'>Both</option>
-    </select>
-    <br>
-    
-    <input type='submit' value='Submit'>    
-     
-</form>
+        Manicure, Pedicure, or Both?
+        <br>
+        <select name='manipedi'>
+            <option value='manicure'>Manicure</option>
+            <option value='pedicure'>Pedicure</option>
+            <option value='both'>Both</option>
+        </select>
+        <br>
+
+        <input type='submit' value='Submit'>
+
+    </form>
+<br />
+
+<div class="nail" width: 50px; height: 50px">
+    Available Nail Colors:
+</div>
+
+<div class="nail" style="background-color: hotpink; width: 50px; height: 50px">
+    Hot Pink
+</div>
+
+<div class="nail" style="background-color: skyblue ; width: 50px; height: 50px">
+    Sky Blue
+</div>
+
+<div class="nail" style="background-color: red; width: 50px; height: 50px">
+    Ruby Red
+</div>
