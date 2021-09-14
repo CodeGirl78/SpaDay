@@ -6,9 +6,16 @@ using System.Threading.Tasks;
 
 namespace SpaDay.Controllers
 {
-    public class HomeController1 : Controller
+    public class UserController : Controller
     {
         public IActionResult Index()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        [Route("spa/user/add")]
+        public IActionResult Add()
         {
             return View();
         }
