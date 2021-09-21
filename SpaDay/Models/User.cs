@@ -1,5 +1,4 @@
-﻿using System;
-namespace SpaDay.Models
+﻿namespace SpaDay.Models
 {
     public class User
     {

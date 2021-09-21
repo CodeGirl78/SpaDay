@@ -1,5 +1,3 @@
-using System;
-
 namespace SpaDay.Models
 {
     public class ErrorViewModel
